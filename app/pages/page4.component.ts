@@ -19,7 +19,7 @@ export class Page4Component implements OnInit {
     }
 
     goback() {
-        let page2BackstackEntry = frameModule.topmost().backStack[2];
+        let page2BackstackEntry = frameModule.topmost().backStack[1];
         frameModule.topmost().goBack(page2BackstackEntry);
     }
 }
